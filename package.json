@@ -1,0 +1,25 @@
+{
+  "name": "dummychatai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^2.10.0",
+    "@langchain/core": "^1.2.1",
+    "@langchain/google": "^0.2.1",
+    "@langchain/google-genai": "^2.2.0",
+    "@langchain/mistralai": "^1.2.0",
+    "@tavily/core": "^0.7.6",
+    "dotenv": "^17.4.2",
+    "langchain": "^1.5.2",
+    "nodemailer": "^9.0.1",
+    "uuid": "^14.0.1"
+  }
+}
