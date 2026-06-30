@@ -1,7 +1,7 @@
 import { transporter } from "./nodeMailer.js";
 function sendEmail({ subject, to, html }) {
   const mailOptions = {
-    from: 'vigreenhussainmoiyedi23@gmail.com',
+    from: process.env.GOOGLE_USER,
     to,
     subject,
     html: html
