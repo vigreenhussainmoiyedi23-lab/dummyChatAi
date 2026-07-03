@@ -12,14 +12,18 @@
   "type": "module",
   "dependencies": {
     "@google/genai": "^2.10.0",
+    "@langchain/community": "^1.1.29",
     "@langchain/core": "^1.2.1",
     "@langchain/google": "^0.2.1",
     "@langchain/google-genai": "^2.2.0",
     "@langchain/mistralai": "^1.2.0",
+    "@langchain/textsplitters": "^1.0.1",
+    "@pinecone-database/pinecone": "^8.0.0",
     "@tavily/core": "^0.7.6",
-    "dotenv": "^17.4.2",
+    "dotenv": "^16.4.5",
     "langchain": "^1.5.2",
     "nodemailer": "^9.0.1",
+    "pdf-parse": "^2.4.5",
     "uuid": "^14.0.1"
   }
 }
